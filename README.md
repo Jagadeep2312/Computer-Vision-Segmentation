@@ -1,122 +1,125 @@
-🧠 Computer Vision – Image Segmentation & Emotion Detection
-📌 Project Overview
+# 🧠 Computer Vision – Image Segmentation & Emotion Detection
 
-This project focuses on Computer Vision fundamentals, specifically image segmentation and emotion detection using a labeled image dataset.
-It demonstrates how machines can analyze images, segment meaningful regions, and predict human emotions from facial expressions.
+## 📌 Project Overview
 
-The project is implemented using Python and Jupyter Notebook, making it ideal for students and beginners in Computer Vision.
+This project focuses on **Computer Vision fundamentals**, specifically **image segmentation** and **emotion detection** using a labeled image dataset.
+It demonstrates how machines can analyze images, segment meaningful regions, and predict **human emotions** from facial expressions.
 
-📂 Dataset
+The project is implemented using **Python and Jupyter Notebook**, making it ideal for **students and beginners** in Computer Vision.
 
-The project uses a custom emotion-based image dataset stored in a ZIP file.
+---
 
-Dataset includes:
+## 📂 Dataset
 
-Facial images categorized by emotions
+The project uses a custom **emotion-based image dataset** stored in a ZIP file.
 
-Emotion labels such as:
+**Dataset includes:**
 
-Happy
+* Facial images categorized by emotions
+* Emotion labels such as:
 
-Sad
-
-Angry
-
-Neutral
-
-Surprise (depending on dataset)
+  * Happy
+  * Sad
+  * Angry
+  * Neutral
+  * Surprise (depending on dataset)
 
 File:
 
+```
 EMOTIONS.zip
+```
 
-⚙️ Technologies Used
+---
 
-Python 🐍
+## ⚙️ Technologies Used
 
-Jupyter Notebook 📓
+* Python 🐍
+* Jupyter Notebook 📓
+* OpenCV
+* NumPy
+* Matplotlib
+* OS / File handling libraries
 
-OpenCV
+---
 
-NumPy
+## 🧠 Concepts Implemented
 
-Matplotlib
+* Image Loading & Preprocessing
+* Image Segmentation
+* Grayscale Conversion
+* Thresholding
+* Feature Extraction
+* Emotion Classification (basic logic/model)
 
-OS / File handling libraries
+---
 
-🧠 Concepts Implemented
+## 🚀 Features
 
-Image Loading & Preprocessing
+* 📸 Segment images using Computer Vision techniques
+* 🙂 Detect emotions from facial images
+* 📂 Supports custom image input
+* 🧪 Beginner-friendly Computer Vision workflow
+* 📊 Visual representation of segmentation output
 
-Image Segmentation
+---
 
-Grayscale Conversion
+## ▶️ How to Run the Project
 
-Thresholding
+1. Clone the repository:
 
-Feature Extraction
-
-Emotion Classification (basic logic/model)
-
-🚀 Features
-
-📸 Segment images using Computer Vision techniques
-
-🙂 Detect emotions from facial images
-
-📂 Supports custom image input
-
-🧪 Beginner-friendly Computer Vision workflow
-
-📊 Visual representation of segmentation output
-
-▶️ How to Run the Project
-
-Clone the repository:
-
+```bash
 git clone https://github.com/your-username/your-repo-name.git
+```
 
+2. Navigate to the folder:
 
-Navigate to the folder:
-
+```bash
 cd your-repo-name
+```
 
+3. Extract the dataset:
 
-Extract the dataset:
-
+```
 EMOTIONS.zip
+```
 
+4. Open Jupyter Notebook:
 
-Open Jupyter Notebook:
-
+```bash
 jupyter notebook
+```
 
+5. Run:
 
-Run:
-
+```
 Computer Vision – Segmentation.ipynb
+```
 
-📊 Sample Use Cases
+---
 
-Emotion recognition systems
+## 📊 Sample Use Cases
 
-Face analysis applications
+* Emotion recognition systems
+* Face analysis applications
+* Human–Computer Interaction (HCI)
+* Academic Computer Vision projects
 
-Human–Computer Interaction (HCI)
+---
 
-Academic Computer Vision projects
+## 📁 Project Structure
 
-📁 Project Structure
+```
 ├── Computer Vision – Segmentation.ipynb
 ├── EMOTIONS.zip
 ├── README.md
+```
 
-✅ Future Enhancements
+---
 
-Use CNNs for better emotion accuracy
+## ✅ Future Enhancements
 
-Add real-time webcam emotion detection
-
-Improve segmentation with deep learning
-
-Deploy as a web application
+* Use CNNs for better emotion accuracy
+* Add real-time webcam emotion detection
+* Improve segmentation with deep learning
+* Deploy as a web application
